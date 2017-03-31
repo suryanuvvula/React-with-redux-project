@@ -2,7 +2,7 @@ import React from 'react';
 
 class searchBarten extends React.Component{
     render(){
-        return <input />;
+        return <input onChange = {event=> console.log(event)}/>;
     }
 }
 
